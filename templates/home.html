@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <!-- <h1>Hello everyone!!!</h1>
+
+    <p>This is proof that it's working.</p>
+
+    <p>The secret color is... {{ color }}</p> -->
+    {% for panel in panels %}
+        <div class="page">
+            <h2>{{ panel["title"] }}</h2>
+            <p class="url">{{ panel["url"] }}</p>
+            <output>Measuring</output>
+        </div>
+    {% endfor %}
+
+{% endblock %}
