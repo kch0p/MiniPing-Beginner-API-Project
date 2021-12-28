@@ -21,8 +21,11 @@ def home():
     panels = [
         { "title": "Cargo", "url": "https://cargo.site/" },
         { "title": "Spline", "url": "https://spline.design/" },
-        { "title": "SuperHi Website", "url": "https://www.superhi.com" },
+        { "title": "Soundcloud", "url": "https://soundcloud.com/" },
         { "title": "Vice", "url": "https://www.vice.com/en" },
+        { "title": "Coinbase", "url": "https://www.coinbase.com/" },
+        { "title": "Smartly", "url": "https://www.smartly.io/" },
+        { "title": "Youtube", "url": "https://www.youtube.com/" }
         ]
 
     return render_template("home.html", color=color, panels = panels)
