@@ -4,7 +4,9 @@ MiniPing - A Webpage for Tracking Load Speeds of Different Sites
 
 # Project Description
 This project is a brief introduction to creating dynamic webpages that interact with APIs using Python and Flask, as well as the Request and Requests Python libraries, to show the ping speeds for different websites. The final product is posted on Heroku and supported by Gunicorn. 
-![[MiniPing Page.png]]
+
+![MiniPing Example Page](https://github.com/kch0p/Beginner-API-Project-SuperHi/blob/master/MiniPing%20Page.png?raw=true)
+
 
 # How to Install and Run the Project
 This project is run within it's own virtual environment. However, if you'd like to start from scratch or pip install programs within your own machine, check out the [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/quickstart/) for instructions on getting started on a local server. 
@@ -14,10 +16,6 @@ It's worth noting that if you download this code file directly, the files should
 ![Static and Template Folders](https://i.imgur.com/q4Na1Cs.png)
 
 If you would like to change out websites for some of your own, you can refer to the dictionary in the app.py file. 
-
-
-
-
 
 
 
