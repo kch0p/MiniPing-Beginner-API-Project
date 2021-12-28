@@ -19,10 +19,10 @@ def home():
     #     ]
 
     panels = [
-        { "title": "SuperHi API", "url": "https://api.superhi.com" },
-        { "title": "SuperHi Editor", "url": "https://editor.superhi.com" },
+        { "title": "Cargo", "url": "https://cargo.site/" },
+        { "title": "Spline", "url": "https://spline.design/" },
         { "title": "SuperHi Website", "url": "https://www.superhi.com" },
-        { "title": "BBC News", "url": "https://www.bbc.com/news" },
+        { "title": "Vice", "url": "https://www.vice.com/en" },
         ]
 
     return render_template("home.html", color=color, panels = panels)
